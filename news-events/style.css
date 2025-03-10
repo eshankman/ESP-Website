@@ -1,0 +1,168 @@
+
+.header {
+  display: flex;
+  align-items: center; 
+  justify-content: flex-start; 
+  max-width: 1500px;
+  margin-left: 125px;
+  margin-top: 35px;
+}
+
+
+.espLogo {
+  width: 175px; 
+  margin-right: 20px; 
+}
+
+
+.topnav {
+  background-color: rgb(53, 128, 179);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  justify-content: flex-start;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.topnav a {
+  color: white;
+  text-align: center;
+  padding: 15px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgb(159, 46, 138);
+  color: black;
+}
+
+.topnav a.active {
+  background-color:  rgb(159, 46, 138);
+  color: white;
+}
+
+
+.mtb2b {
+  background-color: rgb(159, 46, 138);
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 15px;
+  text-align: center;
+  margin-left: 100px; 
+  margin-right: 20px; 
+  white-space: nowrap;
+
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body{
+  background-color: rgb(99, 99, 99, 0.076)
+}
+
+.ctct-inline-form-container {
+  margin-top: 35px;
+  margin-right: 175px;
+  float: right;
+  justify-content: center;
+  align-items: center;
+  height: 75%;
+  width: 50%;
+}
+.ctct-inline-form {
+ margin-left: auto;
+ max-height: 50px;
+  max-width: 50%;
+}
+
+.ccImg {
+  width: 100px;
+  display: inline-flex;
+  margin-right: 15px;
+}
+
+.campaign {
+  color: rgb(53, 128, 179);
+  font-size: 20px;
+}
+
+.campaignName {
+  color: rgb(159, 46, 138);
+  font-size: 20px;
+  display: block;  
+  margin-top: 10px;
+}
+
+.contactContainer {
+  margin-top: 75px;
+  margin-left: 340px;
+}
+
+.showSchedule {
+  margin-top: 175px;
+  margin-left: 850px;
+  margin-right: auto;
+  margin-bottom: -350px;
+  display: float;
+  color: rgb(53, 128, 179);
+}
+
+.table {
+  border: 3px solid black; /* Outer border for the table */
+  border-collapse: collapse; /* Ensure borders collapse for connected cells */
+  margin: auto; /* Center the table horizontally */
+  background-color: white;
+  width: 80%; /* Adjusts table width */
+  max-width: 800px; /* Optional: Limits table width */
+  height: auto; /* Allow height to adjust dynamically */
+  position: relative; /* Remove absolute positioning */
+}
+
+.table-container {
+  display: flex;
+  justify-content: center; /* Centers table horizontally */
+  align-items: center; /* Centers table vertically */
+  height: 100vh; /* Makes container fill the screen */
+}
+
+.th, td {
+  border: 2px solid black; /* Border between table cells */
+  background-color: white;
+  padding: 8px; /* Add padding for better readability */
+  text-align: center; /* Center content in the table cells */
+}
+
+
+
+.footer {
+  background-color: rgb(159, 46, 138);
+  padding: 50px 0;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto; /* This ensures the footer sticks to the bottom */
+}
+
+
+.copyright, .phone {
+  font-weight: bolder;
+  color: white;
+}
+
+.copyright{
+  margin-left: 15px;
+}
+
+.email{
+  margin-right: 25px;
+}

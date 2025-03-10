@@ -1,0 +1,215 @@
+
+.header {
+  display: flex;
+  align-items: center; 
+  justify-content: flex-start; 
+  max-width: 1500px;
+  margin-left: 125px;
+  margin-top: 35px;
+}
+
+
+.espLogo {
+  width: 175px; 
+  margin-right: 20px; 
+}
+
+
+.topnav {
+  background-color: rgb(53, 128, 179);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  justify-content: flex-start;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.topnav a {
+  color: white;
+  text-align: center;
+  padding: 15px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgb(159, 46, 138);
+  color: black;
+}
+
+.topnav a.active {
+  background-color:  rgb(159, 46, 138);
+  color: white;
+}
+
+
+.mtb2b {
+  background-color: rgb(159, 46, 138);
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 15px;
+  text-align: center;
+  margin-left: 100px; 
+  margin-right: 20px; 
+  white-space: nowrap;
+
+}
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  background-color: rgba(99, 99, 99, 0.076);
+}
+
+.thankyou {
+  font-size: 40px;
+  color: rgb(159, 46, 138);
+  text-align: center;
+  margin-top: 45px;
+}
+
+.tagline {
+  font-size: 30px;
+  color: purple;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.sub-tag {
+  font-size: 25px;
+  color: rgb(53, 128, 179);
+  text-align: center;
+  margin-top: 75px;
+}
+
+@font-face {
+  font-family: 'Segoe Script';
+  src: url('https://fonts.cdnfonts.com/s/21900/Segoe Script.woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.years {
+  margin-left: 350px;
+  width: 350px;
+  height: 150px;
+}
+
+.image-container{
+  display: inline-flex
+}
+
+.textContainer{
+float: right;
+margin-top: 35px;
+margin-left: 75px;
+margin-bottom: 50px;
+}
+
+.yearsText {
+  font-family: 'Segoe Script', sans-serif;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.local {
+  width: 200px;
+  margin-left: 125px;
+  margin-top: -65px;
+}
+
+.astra {
+  width: 200px;
+  float: right;
+  margin-right: 125px;
+  margin-top: -15px;
+}
+
+
+.wrapper {
+  /* height: 130px; */
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  margin-left: 350px;
+}
+
+.wrapper:before, .wrapper:after {
+  content: "";
+  position: absolute;
+  height: 130px;
+  width: 150px;
+  z-index: 2;
+}
+
+.wrapper:after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+
+.wrapper:before {
+  left: 0;
+  top: 0;
+}
+
+.wrapper .track {
+  display: flex;
+  width: calc(150px * 7); /* 150px per item * 10 items */
+  animation: scroll 60s 0.05s linear infinite;
+}
+
+.wrapper .img-gallery {
+  width: 250px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.wrapper .img-gallery img {
+  height: 150px;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%); /* Move left by the full width of the track */
+  }
+}
+
+.footer {
+  background-color: rgb(159, 46, 138);
+  padding: 50px 0;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.copyright, .phone {
+  font-weight: bolder;
+  color: white;
+}
+
+.copyright{
+  margin-left: 15px;
+}
+
+.email {
+  color: white !important;
+  margin-right: 25px;
+}

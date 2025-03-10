@@ -1,0 +1,7 @@
+{
+  "event": {
+    "token": "grecaptcha.enterprise.execute()",
+    "expectedAction": "grecaptcha.enterprise.execute()",
+    "siteKey": "6Lea36gqAAAAALxplHpxxoXMAsN9GKjdBvdVJL6q"
+  }
+}
