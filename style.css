@@ -1,19 +1,16 @@
-
 .header {
   display: flex;
-  align-items: center; 
-  justify-content: flex-start; 
+  align-items: center;
+  justify-content: flex-start;
   max-width: 1500px;
   margin-left: 125px;
   margin-top: 35px;
 }
 
-
 .espLogo {
-  width: 175px; 
-  margin-right: 20px; 
+  width: 175px;
+  margin-right: 20px;
 }
-
 
 .topnav {
   background-color: rgb(53, 128, 179);
@@ -40,10 +37,9 @@
 }
 
 .topnav a.active {
-  background-color:  rgb(159, 46, 138);
+  background-color: rgb(159, 46, 138);
   color: white;
 }
-
 
 .mtb2b {
   background-color: rgb(159, 46, 138);
@@ -52,14 +48,13 @@
   text-decoration: none;
   border-radius: 15px;
   text-align: center;
-  margin-left: 100px; 
-  margin-right: 20px; 
+  margin-left: 100px;
+  margin-right: 20px;
   white-space: nowrap;
-
 }
 
-
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -91,8 +86,8 @@ body {
 }
 
 @font-face {
-  font-family: 'Segoe Script';
-  src: url('https://fonts.cdnfonts.com/s/21900/Segoe Script.woff');
+  font-family: "Segoe Script";
+  src: url("https://fonts.cdnfonts.com/s/21900/Segoe Script.woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -103,19 +98,19 @@ body {
   height: 150px;
 }
 
-.image-container{
-  display: inline-flex
+.image-container {
+  display: inline-flex;
 }
 
-.textContainer{
-float: right;
-margin-top: 35px;
-margin-left: 75px;
-margin-bottom: 50px;
+.textContainer {
+  float: right;
+  margin-top: 35px;
+  margin-left: 75px;
+  margin-bottom: 50px;
 }
 
 .yearsText {
-  font-family: 'Segoe Script', sans-serif;
+  font-family: "Segoe Script", sans-serif;
   font-size: 20px;
   margin-left: 20px;
 }
@@ -133,7 +128,6 @@ margin-bottom: 50px;
   margin-top: -15px;
 }
 
-
 .wrapper {
   /* height: 130px; */
   overflow: hidden;
@@ -145,7 +139,8 @@ margin-bottom: 50px;
   margin-left: 350px;
 }
 
-.wrapper:before, .wrapper:after {
+.wrapper:before,
+.wrapper:after {
   content: "";
   position: absolute;
   height: 130px;
@@ -199,13 +194,13 @@ margin-bottom: 50px;
   align-items: center;
 }
 
-
-.copyright, .phone {
+.copyright,
+.phone {
   font-weight: bolder;
   color: white;
 }
 
-.copyright{
+.copyright {
   margin-left: 15px;
 }
 

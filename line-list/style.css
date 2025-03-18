@@ -1,19 +1,16 @@
-
 .header {
   display: flex;
-  align-items: center; 
-  justify-content: flex-start; 
+  align-items: center;
+  justify-content: flex-start;
   max-width: 1500px;
-  margin-left: 125px;
+  margin-left: 225px;
   margin-top: 35px;
 }
 
-
 .espLogo {
-  width: 175px; 
-  margin-right: 20px; 
+  width: 175px;
+  margin-right: 20px;
 }
-
 
 .topnav {
   background-color: rgb(53, 128, 179);
@@ -44,7 +41,6 @@
   color: white;
 }
 
-
 .mtb2b {
   background-color: rgb(159, 46, 138);
   color: white;
@@ -52,19 +48,19 @@
   text-decoration: none;
   border-radius: 15px;
   text-align: center;
-  margin-left: 100px; 
-  margin-right: 20px; 
+  margin-left: 100px;
+  margin-right: 20px;
   white-space: nowrap;
-
 }
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   width: 100%;
 }
 
-.annouceContainer{
+.annouceContainer {
   width: 750px;
   height: 125;
   border: 1.5px solid rgb(19, 140, 183);
@@ -73,7 +69,7 @@ html, body {
   background-color: lightblue;
 }
 
-.table_head{
+.table_head {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
   border: 2px solid black;
@@ -81,62 +77,63 @@ html, body {
   background-color: white;
 }
 
-.table{
+.table {
   border: 3px solid black;
   border-collapse: collapse;
   margin: auto;
   background-color: white;
 }
 
-.th, td{
+.th,
+td {
   border: 2px solid black;
   background-color: white;
   border-collapse: collapse;
 }
 
-.body{
-  background-color: rgb(99, 99, 99, 0.076)
+.body {
+  background-color: rgb(99, 99, 99, 0.076);
 }
 
-.catalog{
- height: 40px;
- display: block;
- margin-left: auto;
- margin-right: auto;
-}
-
-.priceList{
+.catalog {
   height: 40px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-.line-list{
+.priceList {
+  height: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.line-list {
   text-align: center;
   color: rgb(159, 46, 138);
 }
 
-.month{
+.month {
   text-align: center;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-  font-size 25px bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman",
+    serif font-size 25px bold;
   text-align: center;
 }
 
-.sub-header{
+.sub-header {
   text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.click_header{
+.click_header {
   text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.email-website{
+.email-website {
   text-align: center;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-weight: bold;
 }
 
@@ -147,8 +144,8 @@ html, body {
   margin-left: auto;
   margin-right: auto;
 }
-.vendorName{
-  font-family: 'Times New Roman', Times, serif;
+.vendorName {
+  font-family: "Times New Roman", Times, serif;
   font-size: 12px bold;
   font-weight: bold;
   text-align: center;
@@ -163,38 +160,37 @@ html, body {
   text-align: center;
   float: right;
   margin-right: 295px;
-
- }
+}
 
 .btn_line_list:hover {
   background-color: rgb(159, 46, 138);
 }
 
-.logo:hover{
- background-color: black; 
+.logo:hover {
+  background-color: black;
 }
 
-.btn-supplement{
+.btn-supplement {
   height: 40px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-.catalogBox{
+.catalogBox {
   font-weight: bold;
   text-align: center;
-  color: rgb(159, 46, 138)
+  color: rgb(159, 46, 138);
 }
 
-.priceListBox{
+.priceListBox {
   font-weight: bold;
   text-align: center;
-  color: rgb(159, 46, 138)
+  color: rgb(159, 46, 138);
 }
 
-.supplementBox{
+.supplementBox {
   font-weight: bold;
   text-align: center;
-  color: rgb(159, 46, 138)
+  color: rgb(159, 46, 138);
 }
