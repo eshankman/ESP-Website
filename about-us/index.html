@@ -1,44 +1,75 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>About Us</title>
-  <link href='/about-us/style.css' rel='stylesheet'>
-</head>
-<body>
-
-  <div class="header">
-    <img src="/logo/transparent/esp-logo-2000-tp.png" class="espLogo" alt="Company Logo">
-    <div class="topnav">
-      <a class='home' href='/index.html'>Home</a>
-      <a class='active' href='/about-us/index.html'>About Us</a>
-      <a class='Meet-the-Team' href='/meet-the-team/index.html'>Meet the Team</a>
-      <a class='vendors' href='/line-list/index.html'>Line List</a>
-      <a class='specials' href='/monthly-specials/index.html'>Specials</a>
-      <a class='news-events' href='/news-events/index.html'>News & Events</a>
-      <a class='contact' href='/contact/index.html'>Contact</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About Us</title>
+    <link href="/about-us/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="header">
+      <img
+        src="/logo/transparent/esp-logo-2000-tp.png"
+        class="espLogo"
+        alt="Company Logo"
+      />
+      <div class="topnav">
+        <a class="home" href="/index.html">Home</a>
+        <a class="active" href="/about-us/index.html">About Us</a>
+        <a class="Meet-the-Team" href="/meet-the-team/index.html"
+          >Meet the Team</a
+        >
+        <a class="vendors" href="/line-list/index.html">Line List</a>
+        <a class="specials" href="/monthly-specials/index.html">Specials</a>
+        <a class="news-events" href="/news-events/index.html">News & Events</a>
+        <a class="contact" href="/contact/index.html">Contact</a>
+      </div>
+      <a href="https://espsales.markettime.com/login"
+        ><button class="mtb2b">Shop 24/7</button></a
+      >
     </div>
-    <a href='https://espsales.markettime.com/login'><button class='mtb2b'>Shop 24/7</button></a>
-  </div>
 
-<p class='openingp'>ESP Sales has been operating in New England since 1989.  We have six reps on the road and one assistant in our office which allows us to reach all of New England and Upstate New York. 
-  ESP Sales represents a wide array of innovative and fresh toy/gift lines and has earned a stellar reputation for high quality of service.
-  Our goal is to represent lines that are innovative and fresh, with an eye toward both the classics and the trendy. 
-  Our line list is constantly evolving and expanding to include the newest and best products in the specialty toy industry. 
-  ESP has earned a stellar reputation among customers and vendors alike for the high level of quality and reliable service provided in the industry. 
-  Our retailers know they can count on ESP to always bring them the most current lines in the industry where design, education, open-ended play and sustainability are valued.</p>
+    <p class="openingp">
+      ESP Sales has been operating in New England since 1989. We have six reps
+      on the road and one assistant in our office which allows us to reach all
+      of New England and Upstate New York. ESP Sales represents a wide array of
+      innovative and fresh toy/gift lines and has earned a stellar reputation
+      for high quality of service. Our goal is to represent lines that are
+      innovative and fresh, with an eye toward both the classics and the trendy.
+      Our line list is constantly evolving and expanding to include the newest
+      and best products in the specialty toy industry. ESP has earned a stellar
+      reputation among customers and vendors alike for the high level of quality
+      and reliable service provided in the industry. Our retailers know they can
+      count on ESP to always bring them the most current lines in the industry
+      where design, education, open-ended play and sustainability are valued.
+    </p>
 
-  <img src='/images/team/esp_team.jpg' class='team' alt='team'>
+    <img src="/images/team/esp_team.jpg" class="team" alt="team" />
 
-<p class='secondp'>Ellen Shankman has been representing manufacturers and serving the needs of our customers for more than 30 years specializing in the specialty toy and gift industry. 
-  Ellen's previous experience in retail has helped her clients with correctly positioning merchandise to highlight popular items and also utilize floor space efficiently. 
-  Ellen has had the privilege of serving as President of ERS Toys dba ESP Sales.</p>
-</body>
-<footer class='footer'>
-  <span class='copyright'>Content copyright (c) 2025. ESP Sales. All rights reserved.</span>
-  <span class='phone'>(860) 668-7209</span>
-  <span class='email'><a href='mailto:ellen@erstoys.com'>ellen@erstoys.com</a></span>
-</footer>
-
+    <p class="secondp">
+      Ellen Shankman has been representing manufacturers and serving the needs
+      of our customers for more than 30 years specializing in the specialty toy
+      and gift industry. Ellen's previous experience in retail has helped her
+      clients with correctly positioning merchandise to highlight popular items
+      and also utilize floor space efficiently. Ellen has had the privilege of
+      serving as President of ERS Toys dba ESP Sales.
+    </p>
+  </body>
+  <footer class="footer">
+    <span class="copyright"
+      >Content copyright (c) 2025. ESP Sales. All rights reserved.</span
+    >
+    <span class="phone">(860) 668-7209</span>
+    <span class="email"
+      ><a href="mailto:ellen@erstoys.com">ellen@erstoys.com</a></span
+    >
+  </footer>
+  <script>
+    if (window.location.pathname.endsWith("index.html")) {
+      // Remove 'index.html' from the URL and redirect
+      window.location.replace(
+        window.location.pathname.replace("index.html", "")
+      );
+    }
+  </script>
 </html>
