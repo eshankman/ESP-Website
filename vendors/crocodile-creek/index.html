@@ -7,7 +7,11 @@
   <title>Crocodile Creek</title>
 
   <link href='style.css' rel='stylesheet'>
-
+  <script>
+    if (window.location.pathname.endsWith('index.html')) {
+      window.location.replace(window.location.pathname.replace('index.html', ''));
+    }
+  </script>
 </head>
 
 <body>
