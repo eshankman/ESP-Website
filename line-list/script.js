@@ -9,9 +9,9 @@ const lineList = document.querySelectorAll('.lineList')
 
 function catalogHandler(event){
   event.preventDefault();
-  const link = event.target.closest('a'); // Find the closest anchor element (in case of nested elements)
+  const link = event.target.closest('a'); 
   if (link && link.href) {
-    window.open(link.href, '_blank'); // Open the link in a new window/tab
+    window.open(link.href, '_blank'); 
   }
 }
 
@@ -21,9 +21,9 @@ catalog.forEach((catalogItem) => {
 
 function priceListHandler(event){
   event.preventDefault();
-  const link = event.target.closest('a'); // Find the closest anchor element (in case of nested elements)
+  const link = event.target.closest('a'); 
   if (link && link.href) {
-    window.open(link.href, '_blank'); // Open the link in a new window/tab
+    window.open(link.href, '_blank'); 
   }
 }
 
@@ -33,9 +33,9 @@ priceList.forEach((priceListItem) => {
 
 function supplementHandler(event){
   event.preventDefault();
-  const link = event.target.closest('a'); // Find the closest anchor element (in case of nested elements)
+  const link = event.target.closest('a'); 
   if (link && link.href) {
-    window.open(link.href, '_blank'); // Open the link in a new window/tab
+    window.open(link.href, '_blank'); 
   }
 }
 
