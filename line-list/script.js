@@ -1,17 +1,16 @@
-'use strict'
+'use strict';
 
-const catalog = document.querySelectorAll(".catalog");
-const priceList = document.querySelectorAll(".priceList");
-const logo = document.querySelectorAll(".logo");
-const supplement = document.querySelectorAll(".supplement")
-const lineList = document.querySelectorAll('.lineList')
+const catalog = document.querySelectorAll('.catalog');
+const priceList = document.querySelectorAll('.priceList');
+const logo = document.querySelectorAll('.logo');
+const supplement = document.querySelectorAll('.supplement');
+const lineList = document.querySelectorAll('.lineList');
 
-
-function catalogHandler(event){
+function catalogHandler(event) {
   event.preventDefault();
-  const link = event.target.closest('a'); 
+  const link = event.target.closest('a');
   if (link && link.href) {
-    window.open(link.href, '_blank'); 
+    window.open(link.href, '_blank');
   }
 }
 
@@ -19,11 +18,11 @@ catalog.forEach((catalogItem) => {
   catalogItem.addEventListener('click', catalogHandler);
 });
 
-function priceListHandler(event){
+function priceListHandler(event) {
   event.preventDefault();
-  const link = event.target.closest('a'); 
+  const link = event.target.closest('a');
   if (link && link.href) {
-    window.open(link.href, '_blank'); 
+    window.open(link.href, '_blank');
   }
 }
 
@@ -31,11 +30,11 @@ priceList.forEach((priceListItem) => {
   priceListItem.addEventListener('click', priceListHandler);
 });
 
-function supplementHandler(event){
+function supplementHandler(event) {
   event.preventDefault();
-  const link = event.target.closest('a'); 
+  const link = event.target.closest('a');
   if (link && link.href) {
-    window.open(link.href, '_blank'); 
+    window.open(link.href, '_blank');
   }
 }
 
@@ -44,7 +43,7 @@ supplement.forEach((supplementItem) => {
 });
 
 function lineListHandler(event) {
-  event.preventDefault(); 
+  event.preventDefault();
   const link = event.target.closest('a');
   if (link && link.href) {
     window.open(link.href, '_blank');

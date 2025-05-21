@@ -1,0 +1,189 @@
+.espLogo{
+  display: block;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: rgb(19, 140, 183);
+  overflow: hidden;
+  margin-left: 125px;
+  max-width: 1400px
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 12px 15px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(159, 46, 138);
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: rgb(53, 128, 179);
+  color: white;
+}
+
+body{
+  background-color: rgba(99, 99, 99, 0.076);
+}
+
+.imgLogo{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.title{
+  text-align: center;
+  color: rgb(53, 128, 179);
+  font-weight: bold;
+  font-size: 45px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo{
+  margin-left: auto;
+  margin-right: auto;
+  width: 125px;
+}
+
+.title_story{
+  text-align: center;
+  color: rgb(159, 46, 138);
+  }
+
+.title_mission{
+  text-align: center;
+  color: rgb(53, 128, 179);
+  margin-top: 5px;
+  }
+
+.story{
+  display: block;
+  margin-left: 275px;
+  margin-right: 125px;
+  text-align: justify;
+  max-width: 1200px;
+  color: rgb(53, 128, 179);
+}
+
+.mission{
+  display: block;
+  margin-left: 275px;
+  margin-right: 125px;
+  text-align: justify;
+  max-width: 1200px;
+  color: rgb(159, 46, 138);
+}
+
+.btn_price_list{
+  padding: 10px 20px;
+  background-color: rgb(19, 140, 183);
+  color: white;
+  text-decoration: none;
+  border-radius: 15px;
+  text-align: center;
+  float: left;
+  margin-left: 250px;
+  margin-right: 155px;
+}
+
+.btn_price_list:hover {
+  background-color: rgb(159, 46, 138);
+}
+
+.btn_catalog{
+  padding: 10px 20px;
+  background-color: rgb(19, 140, 183);
+  color: white;
+  text-decoration: none;
+  border-radius: 15px;
+  text-align: center;
+  float: right;
+  margin-left: 155px;
+  margin-right: 250px;
+}
+
+.btn_catalog:hover {
+  background-color: rgb(159, 46, 138);
+}
+
+.container {
+  margin-top: 25px;
+  display: inline-block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.gallery{
+  display: inline-block;
+  border: 2px solid rgb(53, 128, 179);
+  margin: 5px;
+  width: 200px;
+}
+
+.gallery .description{
+  padding: 10px;
+  text-align: center;
+  color:rgb(53, 128, 179)
+}
+
+.gallery:hover{
+  border: 2px solid rgb(159, 46, 138);
+}
+
+.gallery:hover .description{
+  color: rgb(159, 46, 138);
+  font-weight: bolder;
+}
+
+.gallery img{
+width: 200px;
+height: 200px;
+object-fit: contain;
+}
+
+.lightbox {
+  display: none; /* Initially hidden */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.lightbox img {
+  max-width: 90%;
+  max-height: 80%;
+  margin: 0 auto;
+}
+
+.lightbox .close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+}

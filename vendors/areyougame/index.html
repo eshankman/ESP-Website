@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="noindex" />
+    <title>Are You Game</title>
+    <link href="style.css" rel="stylesheet" />
+    <script>
+      if (window.location.pathname.endsWith('index.html')) {
+        window.location.replace(window.location.pathname.replace('index.html', ''));
+      }
+    </script>
+  </head>
+
+  <body>
+    <img src="/logo/transparent/esp-logo-2000-tp.png" alt="logo" class="espLogo" />
+
+    <div class="topnav">
+      <a class="active" href="/index.html">Home</a>
+      <a class="aboutus" href="/about-us/index.html">About Us</a>
+      <a class="Meet-the-Team" href="/meet-the-team/index.html">Meet the Team</a>
+      <a class="vendors" href="/line-list/index.html">Line List</a>
+      <a class="specials" href="/monthly-specials/index.html">Specials</a>
+      <a class="portal" href="/online-shop/index.html">Shop 24/7</a>
+      <a class="contact" href="/contact/index.html">Contact</a>
+    </div>
+
+    <div class="imgLogo">
+      <span class="Are You Game"></span>
+      <img src="/logo/areyougame-transparent.png" alt="are you game" class="logo" />
+    </div>
+
+    <h1 class="title_story">About Us</h1>
+    <p class="story">
+      AreYouGame.com was founded in late 1998 by University Games led by Vince Kurr and Bob Moog. In 1999,
+      AreYouGame.com was incorporated as a new company and it began its mission to offer a definitive selection of
+      games, activities, and puzzles to people throughout the country. In 2019, the business moved to Kansas City, MO
+      where it continues to provide an incredible selection and outstanding service.
+    </p>
+    <br />
+    <h1 class="title_mission">What Makes An Are You Game Product?</h1>
+    <p class="mission">
+      AreYouGame provides you and your family with the best new and original games, puzzles, and activities with the
+      goal of creating meaningful memories with the whole family. Our team in Kansas City, MO spends hours designing,
+      developing, and testing new games, puzzles, and activities to ensure they meet and exceed the AreYouGame standard.
+    </p>
+
+    <a href=""><button class="btn_price_list">2025 Price List</button></a>
+    <a href=""><button class="btn_catalog">2025 Catalog</button></a>
+
+    <div class="container">
+      <div class="gallery">
+        <a href="javascript:void(0);" onclick="openLightbox('')">
+          <div class="image"><img src="/images/areyougame/Lawn Bowling & Ring Toss-min.jpg" /></div>
+        </a>
+        <div class="description">Lawn Bowling & Ring Toss</div>
+      </div>
+      <div class="gallery">
+        <a href="javascript:void(0);" onclick="openLightbox('')">
+          <div class="image"><img src="/images/areyougame/3-Minute Origami-min.jpg" /></div>
+        </a>
+        <div class="description">3 Minute Origami</div>
+      </div>
+      <div class="gallery">
+        <a href="javascript:void(0);" onclick="openLightbox('')">
+          <div class="image"><img src="/images/areyougame/Super Duper Superhero-min.jpg" /></div>
+        </a>
+        <div class="description">Super Duper Superhero</div>
+      </div>
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+      <span class="close">&times;</span>
+      <img src="" alt="Lightbox Image" />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
