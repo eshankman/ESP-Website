@@ -1,55 +1,80 @@
-.espLogo{
-  display: block;
-  width: 350px;
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 1500px;
+  margin-left: 125px;
+  margin-top: 35px;
+}
+
+.espLogo {
+  width: 175px;
+  margin-right: 20px;
+}
+
+.topnav {
+  background-color: rgb(53, 128, 179);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  justify-content: flex-start;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 15px;
 }
 
-/* Add a black background color to the top navigation */
-.topnav {
-  background-color: rgb(19, 140, 183);
-  overflow: hidden;
-  margin-left: 125px;
-  max-width: 1400px
-}
-
-/* Style the links inside the navigation bar */
 .topnav a {
-  float: left;
-  color: #f2f2f2;
+  color: white;
   text-align: center;
-  padding: 12px 15px;
+  padding: 15px 20px;
   text-decoration: none;
   font-size: 17px;
-  margin-left: 50px;
-  margin-right: 50px;
 }
 
-/* Change the color of links on hover */
 .topnav a:hover {
   background-color: rgb(159, 46, 138);
   color: black;
 }
 
-/* Add a color to the active/current link */
 .topnav a.active {
-  background-color: rgb(53, 128, 179);
+  background-color: rgb(159, 46, 138);
   color: white;
 }
 
-body{
+.mtb2b {
+  background-color: rgb(159, 46, 138);
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 15px;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 20px;
+  white-space: nowrap;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
   background-color: rgba(99, 99, 99, 0.076);
 }
 
-.imgLogo{
+.imgLogo {
   display: flex;
   align-items: center;
   text-align: center;
   margin-top: 5px;
 }
 
-.title{
+.title {
   text-align: center;
   color: rgb(53, 128, 179);
   font-weight: bold;
@@ -58,24 +83,24 @@ body{
   margin-right: auto;
 }
 
-.logo{
+.logo {
   margin-left: auto;
   margin-right: auto;
   width: 125px;
 }
 
-.title_story{
+.title_story {
   text-align: center;
   color: rgb(159, 46, 138);
-  }
+}
 
-.title_mission{
+.title_mission {
   text-align: center;
   color: rgb(53, 128, 179);
   margin-top: 5px;
-  }
+}
 
-.story{
+.story {
   display: block;
   margin-left: 275px;
   margin-right: 125px;
@@ -84,7 +109,7 @@ body{
   color: rgb(53, 128, 179);
 }
 
-.mission{
+.mission {
   display: block;
   margin-left: 275px;
   margin-right: 125px;
@@ -93,7 +118,7 @@ body{
   color: rgb(159, 46, 138);
 }
 
-.btn_price_list{
+.btn_price_list {
   padding: 10px 20px;
   background-color: rgb(19, 140, 183);
   color: white;
@@ -109,7 +134,7 @@ body{
   background-color: rgb(159, 46, 138);
 }
 
-.btn_catalog{
+.btn_catalog {
   padding: 10px 20px;
   background-color: rgb(19, 140, 183);
   color: white;
@@ -132,32 +157,32 @@ body{
   margin-left: auto;
 }
 
-.gallery{
+.gallery {
   display: inline-block;
   border: 2px solid rgb(53, 128, 179);
   margin: 5px;
   width: 200px;
 }
 
-.gallery .description{
+.gallery .description {
   padding: 10px;
   text-align: center;
-  color:rgb(53, 128, 179)
+  color: rgb(53, 128, 179);
 }
 
-.gallery:hover{
+.gallery:hover {
   border: 2px solid rgb(159, 46, 138);
 }
 
-.gallery:hover .description{
+.gallery:hover .description {
   color: rgb(159, 46, 138);
   font-weight: bolder;
 }
 
-.gallery img{
-width: 200px;
-height: 200px;
-object-fit: contain;
+.gallery img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
 }
 
 .lightbox {
@@ -186,4 +211,29 @@ object-fit: contain;
   font-size: 2rem;
   color: white;
   cursor: pointer;
+}
+
+footer {
+  background-color: rgb(159, 46, 138);
+  padding: 50px 0;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+}
+
+.copyright,
+.phone {
+  font-weight: bolder;
+  color: white;
+}
+
+.copyright {
+  margin-left: 15px;
+}
+
+.email {
+  margin-right: 25px;
 }
